@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .ex{
+            display: inline-block;
+            border: 1px solid black;
+        }
+        .ex:first-of-type {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            padding: 10px;
+        }
+        .ex:nth-of-type(2){
+            width: 50px;
+            height: 70                                                                                                                                                  px;
+            margin: 15px;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <p>inline-block : 배치는 inline처럼, 크키(width,heght,margin,padding)은 block처럼</p>
+    <div class="ex">Lorem, ipsum dolor.</div>
+    <div class="ex">Fuga, soluta sit!</div>
+    <div class="ex">Ad, consequuntur nemo.</div>
+    <div class="ex">At, atque delectus.</div>
+    <div class="ex">Pariatur, asperiores! Placeat!</div>
+</body>
+</html>
