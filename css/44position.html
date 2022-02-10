@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
-        .sub{
+        .sub {
             display: none;
             position: absolute;
-            top : -5px;
+            top: -5px;
             left: 118px;
             background-color: black;
             color: white;
         }
-        .sub > li {
+
+        .sub>li {
             width: 120px;
             padding: 0px;
             margin: 0x;
-            
+
         }
-        ul{
+
+        ul {
             padding: 0px;
             margin: 0px;
             list-style-type: none;
         }
-        .main > li {
+
+        .main>li {
             width: 120px;
             position: relative;
             padding: 3px;
@@ -31,15 +35,18 @@
             box-sizing: border-box;
             border: 5px solid black;
         }
-        .main > li:hover{
+
+        .main>li:hover {
             border-right: 5px solid yellow;
         }
-        .main > li:hover > .sub {
+
+        .main>li:hover>.sub {
             display: block;
 
         }
     </style>
 </head>
+
 <body>
     <!-- ul.main>li*5>lorem1+ul.sub>li*3>lorem1 -->
     <ul class="main">
@@ -85,4 +92,5 @@
         </li>
     </ul>
 </body>
+
 </html>
