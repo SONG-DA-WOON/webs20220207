@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <style>
-  </style>
+    <style>
+        .sub {
+            
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: 0px;
+            background-color: black;
+            color: white;
+            font-family:monospace ;
+        }
+
+        .sub>li {
+            width: 120px;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        ul {
+          background-color: black;
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            font-family: monospace;
+            font-size: 15px;
+        }
+
+        .main>li {
+            width: 120px;
+            position: relative;
+            padding: 3px;
+            margin: 0px;
+            background-color: black;
+            color: white;
+            box-sizing: border-box;
+            border: 5px solid black;
+        }
+
+        .main>li:hover {
+            border-bottom: 3px solid yellow;
+        }
+
+        .main>li:hover>.sub {
+            display: block;
+
+        }
+        .main{
+          display: flex;
+        }
+        .main-content-container{
+          flex: 1;
+          background-color: beige;
+          text-align: center;
+          font-family: fantasy;
+          
+        }
+        .body-container{
+          display: flex;
+          flex: 1;
+          justify-content: flex-start;
+          
+        }
+    </style>
 </head>
+
 <body>
-  <div>
-    
-  </div>
+    <!-- ul.main>li*5>lorem1+ul.sub>li*3>lorem1 -->
+    <ul class="main">
+        <li>
+            ABC
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Esse.</li>
+                <li>Debitis.</li>
+            </ul>
+        </li>
+        <li>
+            ADV
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Provident!</li>
+                <li>Autem.</li>
+            </ul>
+        </li>
+        <li>
+            QWE
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Nulla?</li>
+                <li>Dolorum.</li>
+            </ul>
+        </li>
+        <li>
+            Q@R
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Quis?</li>
+                <li>Voluptatem.</li>
+            </ul>
+        </li>
+        <li>
+            WOEI
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Cum.</li>
+                <li>Dolor?</li>
+            </ul> 
+        </li>
+    </ul>
+      </div>
+      <div class="main-content-container">
+        <br>
+        <br>
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequuntur optio in mollitia vero est sequi, fuga soluta exercitationem quisquam. Adipisci, corporis ipsa assumenda amet eum perferendis? Reiciendis, explicabo ducimus.</p>
+        <h1>Accusamus, architecto autem.</h1>
+        <p>Autem suscipit mollitia laudantium fuga fugit! Quae nobis at adipisci inventore unde natus ex odio, quam quasi velit in quo repudiandae minima dolore, hic voluptatem odit iure. Nihil, veniam porro!</p>
+        <h1>Quas, magni recusandae!</h1>
+        <p>At delectus molestiae eaque, doloribus ad sed sapiente animi dolor aliquid veniam. Omnis rem, at eos vitae dolorem recusandae distinctio aspernatur a aliquam voluptatum dicta architecto voluptas in? Architecto, reprehenderit?</p>
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt laudantium et itaque quod nemo porro eos odit libero eveniet, laborum fugiat molestias excepturi veritatis asperiores debitis! Eos exercitationem ad similique.</p>
+        <h1>Minus, dicta?</h1>
+        <p>Qui aliquam accusamus eaque id enim maxime porro in ad amet hic, nihil voluptate nesciunt assumenda praesentium dolor suscipit tempora corrupti, eligendi quisquam explicabo molestiae a. Ipsum ducimus debitis molestiae!</p>
+        <h1>Dignissimos, tempora ut!</h1>
+        <p>Earum dolorem quaerat explicabo odio provident expedita, aliquid beatae ut? Vel hic eligendi optio itaque ipsam eaque quod molestias perspiciatis sint dolorem maxime temporibus maiores nobis, tenetur dignissimos quos veniam?</p>
+        <h1>Illo asperiores dolores quos!</h1>
+        <p>Alias nisi deleniti quo modi provident sint sunt est ullam quos at? Vel magni quas repellendus assumenda consequuntur nam totam in quae, autem obcaecati consequatur delectus, distinctio, dolorem quidem quos?</p>
+        <h1>Veniam tempore in obcaecati expedita!</h1>
+        <p>Quo iusto explicabo, quod obcaecati natus quis nostrum dicta autem laboriosam? Exercitationem quibusdam ab, iste quaerat accusantium quos officiis, nam fugiat cum repudiandae delectus sequi, et voluptatem consequatur itaque harum.</p>
+      </div>
+      <div class="ad-container">
+        <img src="다운로드.jpg"
+      </div>
+    </div>
 </body>
+
 </html>
